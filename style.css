@@ -1,0 +1,269 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+}
+
+header .inner{
+    width: 1300px; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 95px;
+    margin-top: 5px; /* Optical alignment of the logo */
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+header nav li:last-of-type{
+    margin-right: 0;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #101010;
+}
+
+header nav .button{
+    background-color: #1ab26b; /* This HEX is the color of the button */
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
+
+.about{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    background-color: lightgray;
+}
+
+.about h1{
+    text-align:center
+}
+ .about p{
+    font-family: "Lucida Console", Courier, monospace;
+    margin-left: 30px;
+    margin-right: 20px;
+ }
+
+ .about ul li{
+    font-family: "Lucida Console", Courier, monospace;
+    margin-left: 30px;
+    margin-right: 20px;
+
+ }
+
+ ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  
+  #blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .blog-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .blog-heading span{
+    color: blueviolet;
+  }
+  .blog-heading h3{
+    font-size: 2.4rem;
+    color: #2b2b2b;
+    font-weight: 600;
+  }
+  .blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+  }
+  
+  .blog-box{
+    width:350px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px 20px;
+  
+  }
+  .blog-img{
+    width:100%;
+    height: auto;
+  }
+  .blog-img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-text span{
+    color: #f33c3c;
+    font-size: 0.9rem;
+  }
+  .blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+  }
+  .blog-text p{
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+  }
+  .blog-text a{
+    color: #0f0f0f;
+  }
+  .blog-text a:hover{
+  
+  
+    @media(max-width:1250px){
+  
+      .blog-box{
+          width: 300px;
+      }
+    } 
+    @media(max-width:1100px){
+      .blog-box{
+          width:70%;
+      }
+    }
+    
+    @media(max-width:550px){
+     
+      .blog-box{
+          margin: 20px 10px;
+          width: 100%;
+      }
+      #blog{
+          padding:20px;
+      }
+    }
+    #apple {
+      padding-left:50px;
+      padding-right: 50px;
+    }   color: #c74242;
+    transition: all ease 0.3s;
+  }
+  
+  
+  @media(max-width:1250px){
+  
+    .blog-box{
+        width: 300px;
+    }
+  } 
+  @media(max-width:1100px){
+    .blog-box{
+        width:70%;
+    }
+  }
+  
+  @media(max-width:550px){
+   
+    .blog-box{
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #blog{
+        padding:20px;
+    }
+  }
+  #apple {
+    padding-left:50px;
+    padding-right: 50px;
+  }
+
+
+.footer-content-right {
+  padding-right:40px;
+  margin-top:20px;
+  float:center;
+  background-color: #c74242;
+}
+
+.icon-style {
+  height:40px;
+  margin-left:20px;
+  margin-top:5px;
+}
+
+.icon-style:hover {
+  background-color:yellow;
+  padding:5px;
+}
+
+.footer{
+
+}
